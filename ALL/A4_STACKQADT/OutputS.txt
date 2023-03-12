@@ -1,0 +1,28 @@
+
+InfixToPostfix:-
+UNBALANCED BRACE: (a+(b)
+Unbalanced braces
+STARTING WITH OPERATOR: +a+b
+Starting character can't be an operator
+CONSECUTIVE OPERATOR: a++b
+Consecutive Operators not allowed
+CONSECUTIVE OPERAND: ab+c
+Consecutive Operands not allowed
+
+EvalPostfix:-
+Format:
+1) Positive Number - space(' ') followed by number
+2) Negative Number - underscore('_') followed by number (underscore to represent negative sign)
+3) Operator - just the operator
+
+INVALID EXPRESSION: (prints INT_MIN)
+ 6_5$ 3/ 4+ ($ symbol)
+Result: -2147483648
+
+INVALID EXPRESSION: (prints wrong result)
+ 6 5 3/4+ (no space before 4)
+Result: 20
+
+VALID EXPRESSION:
+ 6_5* 3/ 4+
+Result: -6

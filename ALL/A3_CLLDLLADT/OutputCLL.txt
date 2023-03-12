@@ -1,0 +1,11 @@
+CLL= Null
+insertfirst(CLL,3) 3 
+insertfirst(CLL,5) 5 3 
+insertlast(CLL,6) 5 3 6 
+rotate(CLL,1,1) 6 5 3 
+rotate(CLL,-1,1) 5 3 6 
+rotate(CLL,1,3) 5 3 6 
+rotate(CLL,1,4) 6 5 3 
+deletefirst(CLL) 5 3 
+deletelast(CLL) 5 
+deletelast(CLL) Null

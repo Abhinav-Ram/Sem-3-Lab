@@ -1,0 +1,12 @@
+
+VALID EXPRESSION: [()]
+Balanced expression
+
+DISORDERLY ARRANGED: ([)]
+Unbalanced expression
+
+UNBALANCED NO OF PARANTHESES/BRACKETS: ([]))
+Unbalanced expression
+
+DISORDERLY ARRANGED: ([)]
+Unbalanced expression

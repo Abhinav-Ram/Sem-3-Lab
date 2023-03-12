@@ -1,0 +1,11 @@
+DLL= Null
+insertfirst(DLL,3) 3 
+insertfirst(DLL,5) 5 3 
+insertlast(DLL,6) 5 3 6 
+rotate(DLL,1,1) 6 5 3 
+rotate(DLL,-1,1) 5 3 6 
+rotate(DLL,1,3) 5 3 6 
+rotate(DLL,1,4) 6 5 3 
+deletefirst(DLL) 5 3 
+deletelast(DLL) 5 
+deletelast(DLL) Null

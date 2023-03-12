@@ -1,0 +1,19 @@
+No names
+Length(l1) 0
+InsertLast(l1,"cat") cat 
+InsertLast(l1,"mat") cat mat 
+InsertFirst(l1,"rat") rat cat mat 
+InsertLast(l1,"cat") rat cat mat cat 
+InsertMiddle(l1,"cat","bat") rat cat mat cat bat 
+Search(l1,"mat") Found
+Search(l1,"sat") Not Found
+GetData(l1) rat
+Length(l1) 5
+Reverse(l1) bat cat mat cat rat 
+DeleteMiddle(l1) bat mat cat rat 
+DeleteFirst(l1) mat cat rat 
+DeleteLast(l1) mat cat 
+CreateSorted(l1,"pat") mat cat pat 
+CreateSorted(l1,"eat") eat mat cat pat 
+CreateSorted(l1,"ant") ant eat mat cat pat 
+RotateLeft(l1) eat mat cat pat ant 
